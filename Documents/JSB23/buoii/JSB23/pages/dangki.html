@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng kí</title>
+  <link rel="stylesheet" href="../accets/css/dangki.css">
+</head>
+<body style="background-image: url(../accets/img/background.jpg);">
+  <div class="form-container">
+    <h2 class="pia">Đăng kí</h2>
+    <form>
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Email">
+<span style="color: red; font-size: 12px" id="email-error"></span>
+
+      <label for="password">Mật khẩu</label>
+      <input type="password" id="password" placeholder="Mật khẩu">
+<span style="color: red; font-size: 12px" id="password-error"></span>
+
+      <label for="cf-password">Nhập lại mật khẩu</label>
+      <input type="password" id="cf-password" placeholder="Nhập lại mật khẩu">
+<span style="color: red; font-size: 12px" id="cf-password-error"></span>
+
+      <button type="submit" id="register-btn">Đăng kí</button>
+
+      <p class="switch-text">
+        chưa có tài khoản? <a href="../pages/dangnhap.html">Login</a>
+      </p>
+    </form>
+  </div>
+  
+  <script type="module" src="../js/firebase.js"></script>
+    <script type="module" src="../js/dangki.js"></script>
+</body>
+</html>

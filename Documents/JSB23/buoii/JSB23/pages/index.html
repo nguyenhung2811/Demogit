@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greenie Tea Store</title>
+    <link rel="stylesheet" href="../accets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img
+        src="../accets/img/Screenshot_2025-09-28_201517-removebg-preview.png"
+        alt=""
+      />
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">Blog</a>
+        <a href="#">Pages</a>
+        <a href="#">Contact</a>
+        <a href="../pages/dangnhap.html">
+          <button>Đăng nhap</button>
+        </a>
+        <a href="../pages/dangki.html">
+          <button>Đăng kí</button>
+        </a>
+      </nav>
+      <div class="icons">
+        <a href="./card.html" title="Giỏ hàng">🛒</a>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Perfect Day Starts With Putting In Tea Pot</h1>
+        <a href="../pages/shop.html">
+          <button>Shop Now</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="drink-tea">
+      <div class="text">
+        <h4>NATURAL YIELDS</h4>
+        <h2>Drink Tea With Fulfilment</h2>
+        <p>
+          Aenean sed adipiscing diam donec adipiscing tristique risus nec.
+          Tristique senectus et netus et malesuada. Ut enim blandit volutpat
+          maecenas volutpat blandit aliquam etiam. Ac tortor dignissim convallis
+          aenean et. Sed sed risus pretium quam.
+        </p>
+
+        <button>Shop All</button>
+      </div>
+      <div class="images">
+        <img src="../accets/img/hinh.jpg" alt="Tea set" />
+      </div>
+    </section>
+
+    <section class="collection">
+      <h4>FITNESS STARTS</h4>
+      <h2>New Tea Collections</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="../accets/img/3hinh.jpg" alt="" />
+          <h3>Camomile Tea</h3>
+          <p>Description of camomile tea</p>
+        </div>
+        <div class="card">
+          <img src="../accets/img/3hinh (2).jpg" alt="" />
+          <h3>Sweet Cinnamon Tea</h3>
+          <p>Description of cinnamon tea</p>
+        </div>
+        <div class="card">
+          <img src="../accets/img/3hinh (3).jpg" alt="" />
+          <h3>Earl Grey Tea</h3>
+          <p>Description of Earl Grey tea</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="bestsellers">
+      <h4>FITNESS STARTS</h4>
+      <h2>Buy Our Bestsellers</h2>
+      <div class="products" id="product-list"></div>
+    </section>
+    <section class="features">
+      <div class="features-left">
+        <div class="feature-box">
+          <img src="../accets/img/LOGO1.jpg" alt="Quality Tea" />
+          <h3>Quality Tea</h3>
+          <p>
+            Rhuesse uyeres seres dolor sit amet consectetur adipiscing elitsed
+            do eiusmod tempor incididunt ut
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="../accets/img/LOGO2.jpg" alt="Fine For Health" />
+          <h3>Fine For Health</h3>
+          <p>
+            Marques eueres sersr sit amet consectetur adipiscing elitsed do
+            eiusmod tempor incididunt ut
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="../accets/img/LOGO3.jpg" alt="Best Flavours" />
+          <h3>Best Flavours</h3>
+          <p>
+            Uleres ser ueres seit amet consectetur adipiscing elitsed do eiusmod
+            tempor incididunt ut
+          </p>
+        </div>
+        <div class="feature-box">
+          <img src="../accets/img/LOGO4.jpg" alt="Natural Products" />
+          <h3>Natural Products</h3>
+          <p>
+            Kiuese ser eruest amet consectetur adipiscing elitsed do eiusmod
+            tempor incididunt ut
+          </p>
+        </div>
+      </div>
+
+      <div class="features-right">
+        <img src="../accets/img/123.jpg" alt="Drinking Tea" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="links">
+        <div>
+          <h3>Discover</h3>
+          <a href="#">Policy</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Orders</a>
+          <a href="#">Store Locator</a>
+          <a href="#">My Account</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div>
+          <h3>Help</h3>
+          <a href="#">Support</a>
+          <a href="#">Help</a>
+          <a href="#">Shipping</a>
+          <a href="#">Returns</a>
+          <a href="#">Our History</a>
+          <a href="#">Careers</a>
+        </div>
+      </div>
+
+      <div class="logo">
+        <img
+          src="../accets/img/Screenshot_2025-09-28_201743-removebg-preview.png"
+          alt=""
+        />
+      </div>
+
+      <div class="newsletter">
+        <h3>Sign up & Save</h3>
+        <p>Subscribe to our newsletter for updates</p>
+        <input type="email" placeholder="Your email address" />
+        <button>Subscribe</button>
+      </div>
+    </footer>
+    <script type="module" src="../js/product.js"></script>
+    <script type="module">
+      import { renderProducts } from "../js/product.js";
+
+      renderProducts("product-list");
+    </script>
+    <script type="module" src="../js/firebase.js"></script>
+  </body>
+</html>

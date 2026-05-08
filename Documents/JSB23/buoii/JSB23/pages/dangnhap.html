@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Form</title>
+  <link rel="stylesheet" href="../accets/css/dangnhap.css" />
+</head>
+<body style="background-image: url(../accets/img/background.jpg)">
+  <div class="login-container">
+    <h2>Login</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="text" id="email" placeholder="Email" />
+      <span style="color: red; font-size: 12px" id="email-error"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Password" />
+      <span style="color: red; font-size: 12px" id="pass-error"></span>
+
+      <button id="login-btn">Login</button>
+
+      <!-- Nút đăng nhập bằng Google -->
+      <button id="google-login-btn" style="margin-top: 10px; background-color: #db4437; color: white;">
+        Login with Google
+      </button>
+
+      <p class="signup-text">
+        chưa có tài khoản?
+        <a href="../pages/dangki.html">Đăng kí ngay</a>
+      </p>
+    </form>
+  </div>
+
+  <script type="module" src="../js/firebase.js"></script>
+  <script type="module" src="../js/login.js"></script>
+</body>
+</html>
