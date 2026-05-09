@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  padding: 12px 0;
+  z-index: 10;
+  position: sticky;
+}
+
+#content {
+  height: 500px;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  gap: 20px;
+}
+
+.nav-left {
+  text-align: center;
+  gap: 20px;
+  display: flex;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: black;
+}
+
+#login-btn {
+  background-color: rgb(125, 64, 18);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-heading {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.hero-heading h1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  line-height: 1;
+}
+
+.pia {
+  display: flex;
+  justify-content: center; /* căn giữa ngang */
+  align-items: center; /* căn giữa dọc */
+  gap: 40px; /* khoảng cách giữa các khối */
+
+  font-weight: bold;
+}
+
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 12px;
+}
+
+.hero-button button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.secondary-btn {
+  background-color: rgb(194, 119, 13);
+}
+
+.primary-btn {
+  background-color: black;
+}
+
+.right-column img {
+  width: 100%;
+}
+
+#footer {
+  margin-top: 20px;
+  background-image: url("./footer_map.png");
+  background-color: rgb(56, 56, 56);
+}
+
+#footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-info {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 80px;
+  padding: 80px 0;
+}
+
+.left-info {
+  width: 400px;
+}
+
+.left-info p {
+  color: white;
+  margin-top: 18px;
+}
+
+.right-info h1 {
+  color: burlywood;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.copyright {
+  padding: 20px 0;
+  background-color: black;
+}
+
+.copyright p {
+  color: white;
+  width: 100vw;
+  text-align: center;
+}
+
+.copyright span {
+  color: rgb(194, 119, 13);
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu a:hover {
+  color: red;
+}
+
+#product-section {
+  background-color: rgb(255, 255, 255);
+}
+#product-section .container {
+  display: flex;
+  z-index: ;
+}
+#product-section .container img {
+  width: 50%;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productist h4 {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+
+.product-card {
+  background-color: yellow;
+}
+
+.product-image {
+  width: 240px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.product-card button {
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  padding: 12px 40px;
+}

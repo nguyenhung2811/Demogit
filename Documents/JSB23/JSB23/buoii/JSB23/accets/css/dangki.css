@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.1); /* nền cam nâu */
+  padding: 35px;
+  border-radius: 12px;
+  width: 340px;
+  text-align: center;
+  color: white;
+}
+
+.form-container h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  padding: 12px;
+  background: #ffffff;
+  border: 1px solid #333;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ffffff;
+}
+
+.switch-text {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.switch-text a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.switch-text a:hover {
+  text-decoration: underline;
+}
+
+.submit {
+    color: #3d5036;
+}
